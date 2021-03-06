@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="188.5144132653061" y="406.0">CargoCompany</node>
+    <node x="197.44285714285712" y="147.0">TransportationPersonnel</node>
+    <node x="19.053571428571445" y="58.0">Customers</node>
+    <node x="164.72159863945575" y="-31.0">Packets</node>
+    <node x="172.11411564625848" y="246.0">Administrators</node>
+    <node x="31.44285714285715" y="147.0">BranchEmployee</node>
+    <node x="216.5144132653061" y="485.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Administrators" target="TransportationPersonnel">
+      <point x="0.0" y="-14.5" />
+      <point x="275.1141156462585" y="237.0" />
+      <point x="244.8595238095238" y="237.0" />
+      <point x="-87.08333333333331" y="14.5" />
+    </edge>
+    <edge source="CargoCompany" target="Administrators">
+      <point x="14.142857142857139" y="-14.5" />
+      <point x="268.65727040816324" y="336.0" />
+      <point x="323.7807823129251" y="336.0" />
+      <point x="48.66666666666663" y="14.5" />
+    </edge>
+    <edge source="CargoCompany" target="Customers">
+      <point x="-42.428571428571445" y="-14.5" />
+      <point x="212.08584183673466" y="366.0" />
+      <point x="46.15017006802722" y="366.0" />
+      <point x="46.15017006802722" y="148.0" />
+      <point x="82.35357142857146" y="148.0" />
+      <point x="-22.19999999999999" y="14.5" />
+    </edge>
+    <edge source="TransportationPersonnel" target="Packets">
+      <point x="0.0" y="-14.5" />
+      <point x="331.9428571428571" y="69.0" />
+      <point x="251.3049319727891" y="69.0" />
+      <point x="8.083333333333329" y="14.5" />
+    </edge>
+    <edge source="Administrators" target="BranchEmployee">
+      <point x="-29.19999999999999" y="-14.5" />
+      <point x="245.9141156462585" y="247.0" />
+      <point x="192.84285714285716" y="247.0" />
+      <point x="58.400000000000006" y="14.5" />
+    </edge>
+    <edge source="CargoCompany" target="TransportationPersonnel">
+      <point x="33.0" y="-14.5" />
+      <point x="287.51441326530613" y="356.0" />
+      <point x="381.81339285714284" y="356.0" />
+      <point x="381.81339285714284" y="257.0" />
+      <point x="384.1928571428571" y="257.0" />
+      <point x="52.25" y="14.5" />
+    </edge>
+    <edge source="BranchEmployee" target="Customers">
+      <point x="-18.25" y="-14.5" />
+      <point x="116.19285714285715" y="158.0" />
+      <point x="126.75357142857146" y="158.0" />
+      <point x="22.200000000000017" y="14.5" />
+    </edge>
+    <edge source="Customers" target="Packets">
+      <point x="0.0" y="-14.5" />
+      <point x="104.55357142857144" y="59.0" />
+      <point x="218.97159863945575" y="59.0" />
+      <point x="-24.25" y="14.5" />
+    </edge>
+    <edge source="Main" target="CargoCompany">
+      <point x="-19.0" y="-14.5" />
+      <point x="235.5144132653061" y="460.0" />
+      <point x="221.5144132653061" y="460.0" />
+      <point x="-33.0" y="14.5" />
+    </edge>
+    <edge source="CargoCompany" target="Packets">
+      <point x="51.857142857142854" y="-14.5" />
+      <point x="306.37155612244896" y="376.0" />
+      <point x="446.9428571428571" y="376.0" />
+      <point x="446.9428571428571" y="59.0" />
+      <point x="267.47159863945575" y="59.0" />
+      <point x="24.25" y="14.5" />
+    </edge>
+    <edge source="BranchEmployee" target="Packets">
+      <point x="54.75" y="-14.5" />
+      <point x="189.19285714285715" y="158.0" />
+      <point x="173.4248299319728" y="158.0" />
+      <point x="173.4248299319728" y="69.0" />
+      <point x="235.13826530612243" y="69.0" />
+      <point x="-8.083333333333329" y="14.5" />
+    </edge>
+    <edge source="CargoCompany" target="BranchEmployee">
+      <point x="-33.000000000000014" y="-14.5" />
+      <point x="221.5144132653061" y="356.0" />
+      <point x="93.45165816326528" y="356.0" />
+      <point x="93.45165816326528" y="257.0" />
+      <point x="76.04285714285714" y="257.0" />
+      <point x="-58.400000000000006" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="552.5" y="203.0" />
+  <SelectedNodes>
+    <node>TransportationPersonnel</node>
+    <node>Customers</node>
+    <node>Packets</node>
+    <node>Administrators</node>
+    <node>BranchEmployee</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
